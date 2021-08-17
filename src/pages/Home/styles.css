@@ -1,0 +1,20 @@
+.home-container {
+    margin-left: 41px;
+    padding-top: 27px;
+}
+
+.home-container h4 {
+    color: #7E7E7E;
+}
+
+.button-container {
+    padding-top: 35px;
+}
+
+.btn {
+    color: #FFFFFF;
+}
+
+.button-container :hover{
+    color: #FFFFFF;
+}

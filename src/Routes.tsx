@@ -1,5 +1,6 @@
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Home from "./pages/Home/Index";
 
 const Routes = () => {
     return (
@@ -7,7 +8,7 @@ const Routes = () => {
         <NavBar/>
         <Switch>
             <Route path="/" exact>
-                <h1>HOME</h1>
+                <Home/>
             </Route>
             <Route path="/search" exact>
                 <h1>SEARCH</h1>
