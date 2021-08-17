@@ -1,0 +1,13 @@
+.NavBar {
+    height: 62px;
+    background-color: #1890FF;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 41px;
+    font-weight: 400;
+}
