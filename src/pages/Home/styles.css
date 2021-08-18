@@ -5,6 +5,7 @@
 
 .home-container h4 {
     color: #7E7E7E;
+    margin-top: 5px;
 }
 
 .button-container {
@@ -15,6 +16,6 @@
     color: #FFFFFF;
 }
 
-.button-container :hover{
+.button-container :hover {
     color: #FFFFFF;
 }
