@@ -18,7 +18,7 @@ const ResultCard = ({ avatar_url, html_url, followers, location, name }: Props) 
         <div className="info_container">
           <h5>Informações</h5>
           <p>
-            Perfil:%20
+            Perfil:<a> </a>
             <a className="href" href= {html_url}>
               {html_url}
             </a>
