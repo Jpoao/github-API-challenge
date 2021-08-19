@@ -22,3 +22,15 @@
 .button_container :hover {
     color: #FFFFFF
 }
+
+@media (max-width: 768px) {
+
+    .search-input {
+        width: 198px;
+    }
+
+    .search_top_container {
+        margin: 54px 0;
+    }
+
+}
