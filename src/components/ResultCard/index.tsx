@@ -18,9 +18,9 @@ const ResultCard = ({ avatar_url, html_url, followers, location, name }: Props) 
         <div className="info_container">
           <h5>Informações</h5>
           <p>
-            Perfil:
-            <a className="href" href= {html_url}>
-              {" "}{html_url}
+            Perfil:<a> </a>
+            <a className="href" href= {html_url} target="_top">
+              {html_url}
             </a>
           </p>
           <p>

@@ -8,7 +8,7 @@ const Home = () => {
       <h4>Bootcamp Spring React - DevSuperior</h4>
       <div className="button-container">
         <Link to="/search">
-          <button className="btn btn-primary">Começar</button>
+          <button className="btn btn-primary" >Começar</button>
         </Link>
       </div>
     </div>

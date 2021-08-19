@@ -13,9 +13,6 @@
 }
 
 .btn {
-    color: #FFFFFF;
+    color: #FFF !important;
 }
 
-.button-container :hover {
-    color: #FFFFFF;
-}
