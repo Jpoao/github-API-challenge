@@ -17,6 +17,8 @@ type Info = {
 };
 
 const Search = () => {
+  const [hasError, setHasError] = useState(false);
+
   const [formData, setFormData] = useState<FormData>({
     user: "",
   });
@@ -35,9 +37,11 @@ const Search = () => {
     axios
       .get(`https://api.github.com/users/${formData.user}`)
       .then((response) => {
+        setHasError(false);
         setInfo(response.data);
       })
       .catch((error) => {
+        setHasError(true);
         setInfo(undefined);
       });
   };
@@ -46,6 +50,12 @@ const Search = () => {
     <div className="search_container">
       <div className="search_top_container">
         <h1>Encontre um perfil Github</h1>
+        {hasError && (
+            <div className="alert alert-danger">
+              Perfil não encontrado ou error externo, tente novamente mais
+              tarde!
+            </div>
+          )}
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -62,11 +72,17 @@ const Search = () => {
           </div>
         </form>
       </div>
-        {info && (
-          <>
-            <ResultCard avatar_url = {info.avatar_url} followers={info.followers} html_url={info.html_url} location={info.location} name={info.name} />
-          </>
-        )}
+      {info && (
+        <>
+          <ResultCard
+            avatar_url={info.avatar_url}
+            followers={info.followers}
+            html_url={info.html_url}
+            location={info.location}
+            name={info.name}
+          />
+        </>
+      )}
     </div>
   );
 };

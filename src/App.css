@@ -16,6 +16,10 @@ h6 {
   font-weight: bold;
 }
 
+.alert {
+  margin-top: 16px;
+}
+
 a,
 a:hover {
   text-decoration: none;
