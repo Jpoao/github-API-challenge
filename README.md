@@ -11,14 +11,14 @@ Na pasta raiz do projeto executando o comando:
 
 ### `yarn start`
 
-O projeto sera aperto em: [http://localhost:3000](http://localhost:3000).
+O projeto sera aberto em: [localhost:3000](http://localhost:3000).
 
 # Sobre o projeto
 
 * github-API é uma aplicação web FullStack SPA
 
 
-O aplicativo conciste em uma tela de inicio e outra com um input para busca de usuarios que integra a API do github com a aplicação
+O aplicativo consiste em uma tela de inicio e outra com um input para busca de usuarios que integra a API do github com a aplicação
 , mostrando assim informações do usuario digitado no input ao dar submit
 
 # Tecnologias usadas
@@ -33,6 +33,6 @@ O aplicativo conciste em uma tela de inicio e outra com um input para busca de u
 * Axios
 * Bootstrap
 * React router dom
-* API github
+* API github -> [API DOC](https://docs.github.com/en/rest/reference/users)
 
 
