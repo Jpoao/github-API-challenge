@@ -1,21 +1,17 @@
-# Getting Started with Create React App
+# github-API
+Projeto feito como criterio de avaliação da trilha react, do bootcamp da DevSuperior
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projeto criado com [Create React App]
 
-## Available Scripts
+Saiba mais -> [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+## Como rodar ?
+
+Na pasta raiz do projeto executando o comando: 
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-# github-API
-Projeto feito como criterio de avaliação da trilha react, do bootcamp da DevSuperior
+O projeto sera aperto em: [http://localhost:3000](http://localhost:3000).
 
 # Sobre o projeto
 
